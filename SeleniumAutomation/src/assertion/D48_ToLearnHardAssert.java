@@ -13,6 +13,7 @@ public class D48_ToLearnHardAssert {
 
 	@Test
 	public void login() {
+		//modified code from git repo
 		WebDriver driver = new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
